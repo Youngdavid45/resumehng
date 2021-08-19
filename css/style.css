@@ -1,0 +1,223 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body {
+    /* border: 1px solid brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    width: 80%;
+    /* max-width: 1440; */
+}
+
+a {
+    text-decoration: none;
+    color: rgb(17, 108, 211);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 32px;
+    padding: 10px 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.block {
+    display: flex;
+}
+
+.info {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    /* border: 1px solid green; */
+}
+
+.details .left {
+    width: 50%;
+}
+
+.details .right {
+    width: 50%;
+}
+
+.work {
+    /* border: 1px solid orange; */
+    width: 49%;
+}
+
+.skills {
+    /* border: 1px solid red; */
+    width: 49%;
+}
+
+.works {
+    margin-bottom: 20px;
+    /* border: 3px solid brown; */
+}
+
+.exper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.link {
+    margin-top: 20px;
+}
+
+.proskill {
+    display: block;
+    width: 100%;
+    align-self: flex-start;
+    margin-bottom: 40px;
+}
+
+.img {
+    width: 100px;
+    height: 50;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.thanks {
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-between;
+}
+
+.thankflex {
+    display: flex;
+    
+}
+
+@media screen and (max-width: 760px) {
+    .body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        flex-direction: column;
+        width: 98%;
+    }
+    
+    .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    h1 {
+        font-size: 32px;
+        padding: 10px 0px;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* .block {
+        display: flex;
+    } */
+    
+    .info {
+        border-bottom: 1px solid black;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .details {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        padding-bottom: 20px;
+        border-bottom: 1px solid black;
+        /* border: 1px solid green; */
+    }
+    
+    .details .left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .details .right {
+        width: 100%;
+    }
+    
+    .work {
+        /* border: 1px solid orange; */
+        width: 100%;
+    }
+    
+    .skills {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    
+    .works {
+        margin-bottom: 20px;
+        /* border: 3px solid brown; */
+    }
+    
+    .exper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .link {
+        margin-top: 20px;
+    }
+    
+    .proskill {
+        display: block;
+        width: 100%;
+        align-self: flex-start;
+        margin-bottom: 40px;
+    }
+    
+    .img {
+        width: 100px;
+        height: 50;
+        margin-top: 20px;
+    }
+    
+    .thanks {
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    
+    .thankflex {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
